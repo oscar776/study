@@ -23,3 +23,9 @@ git commit -m '文件信息'
  git config --global user.name "Your Name"  
 ```
 
+#### 4、回滚
+
+```
+git reset  版本号
+```
+
