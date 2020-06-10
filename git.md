@@ -29,3 +29,36 @@ git commit -m '文件信息'
 git reset  版本号
 ```
 
+#### 5、回到回滚前状态
+
+```
+git reflog    
+349c139 (HEAD -> master) HEAD@{0}: reset: moving to 349c139488e0
+250634e HEAD@{1}: commit: 增加一个回滚
+git reset  版本号（250634e） 
+```
+
+#### 6、强制回滚
+
+```
+git reset  版本号（250634e） --hard
+```
+
+#### 7、获取公钥和私钥
+
+```
+ssh-keygen -t rsa -C "you@example.com" 
+```
+
+#### 8、当前文件夹代码与远程库进行关联
+
+```
+git remote add origin git@github.com:oscar776/study.git(远程库地址)
+```
+
+#### 9、把本地所有代码推送到仓库
+
+```
+git push -u origin master 
+```
+
