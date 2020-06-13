@@ -62,3 +62,9 @@ git remote add origin git@github.com:oscar776/study.git(远程库地址)
 git push -u origin master 
 ```
 
+
+#### 10、创建分支
+```
+git branch dev(分支名)
+git checkout dev   --切换分支
+```
