@@ -68,3 +68,13 @@ git push -u origin master
 git branch dev(分支名)
 git checkout dev   --切换分支
 ```
+
+#### 11、合并分支
+```
+git merge 分支名
+```
+
+#### 12、删除分支
+```
+git branch -d 分支名
+```
